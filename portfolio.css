@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Cedarville+Cursive&family=Hind+Mysuru:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Cedarville+Cursive&family=Hind+Mysuru:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+body{
+    background-color: slategrey;
+}
+hr{
+    width: 100vw;
+}
+header h1{
+    text-align: center;
+    font-family: 'Cedarville Cursive';
+    margin: 10px 0 40px 0;
+    text-decoration: underline;
+}
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    gap: 30px;
+    padding: 70px 0 0 100px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(29, 27, 27);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Archivo Narrow';
+}
+.discription{
+    padding: 0 250px 0 10px;
+}
+.myImg img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    box-shadow: black 0 0 20px;
+    margin-right: 20px;
+}
+.myImg p{
+    text-align: center;
+    padding: 5px;
+}
+.education{
+    margin: 10px;
+}
+.education h1{
+    padding: 10px 0 30px 0;
+}
+.ug h1{
+    padding: 10px 0;
+}
+.ug p:first-child{
+    padding: 5px 0 5px 0;
+}
