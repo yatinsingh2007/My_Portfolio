@@ -1,21 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Cedarville+Cursive&family=Hind+Mysuru:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Cedarville+Cursive&family=Hind+Mysuru:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Cedarville+Cursive&family=Hind+Mysuru:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Nunito';
+    font-family: 'space Grotesk';
+    color: white;
 }
 body{
-    background-color: slategrey;
+    background-color: rgb(29, 29, 30);
 }
 hr{
     width: 100vw;
 }
 header h1{
     text-align: center;
-    font-family: 'Cedarville Cursive';
-    margin: 10px 0 40px 0;
+    font-family: 'space Grotesk';
+    margin: 10px 0 20px 0;
     text-decoration: underline;
+}
+marquee{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'space Grotesk';
+    padding: 10px 0 15px 0;
 }
 .main-body{
     display: flex;
@@ -38,6 +44,9 @@ header h1{
 }
 .discription{
     padding: 0 250px 0 10px;
+}
+.description p{
+    padding: 20px 0;
 }
 .myImg img{
     width: 20vw;
